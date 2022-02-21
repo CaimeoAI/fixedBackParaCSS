@@ -2,5 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+#wrapper {
+    padding-top: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background: url(https://images.unsplash.com/photo-1586461715699-1e192dcd04c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=719&q=80) no-repeat fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.content {
+    margin: 25% 0;
+    background-color: rgba(255, 255, 255, 0.692);
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    height: 100%;
 }
 
